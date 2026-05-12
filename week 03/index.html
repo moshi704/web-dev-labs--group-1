@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My website</title>
+  <style>
+    nav {
+      background-color: brown;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: aqua;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    h2 {
+      color: darkred;
+      border-bottom: 20px solid black
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <h1 style="color: rgb(208, 255, 0);">Welcome to Our website</h1>
+    <p style="color: rgb(83, 26, 175);"> For Learning frontend development</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#DailyRoutine">DailyRoutine</a></li>
+    </ul>
+  </nav>
+
+  <!--  About section-->
+  <section id="About" class="section">
+    <h2> About Us</h2>
+    <img src="coding.jpg" alt="Python codes">
+    <p> Learning Python is fun</p>
+  </section>
+
+  <!-- Skills section-->
+  <section id="Skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JAVASCRIPT</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <!-- DailyRoutine-->
+  <section id="DailyRoutine" class="section">
+    <h2>DailyRoutine</h2>
+    <ol>
+      <li>Praying</li>
+      <li>Breakfast</li>
+      <li>coding</li>
+      <li>sleep</li>
+    </ol>
+  </section>
+
+</body>
+
+</html>
