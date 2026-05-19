@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 4 - CSS Layout</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="fixed-header">
+    Lab 4: CSS Layout Control
+  </header>
+
+  <nav class="sticky-nav">
+    <a href="#part1">Box Model</a>
+    <a href="#part2">Positioning</a>
+    <a href="#part3">Float and Clear</a>
+    <a href="#part4">Integrated Layout</a>
+  </nav>
+
+  <div class="page">
+    <p class="section-label" id="part1">Part 1: Box Model</p>
+
+    <div class="box">
+      <h2>Box One</h2>
+      <p>Padding is the space inside, And border is the line around it.</p>
+    </div>
+    <div class="box">
+      <h2>Box Two</h2>
+      <p> The gap between the two boxes is margin.</p>
+    </div>
+
+    <div class="box">
+      <h2>Box Three</h2>
+      <p> Both elements(padding, margin, boarder) are important in web designing. </p>
+    </div>
+
+
+    <p class="section-label" id="part2">Part 2: Positioning</p>
+
+    <div class="card">
+      <span class="badge">GROUP 1</span>
+      <p> The red badge is position absolute so it sticks to the top right corner, not the whole page.</p>
+    </div>
+
+    <p class="section-label" id="part3">Part 3: Float and Clear</p>
+
+    <div class="main-content">
+      <h3>Main Content</h3>
+      <p>Float left: moves the div to the left leaving a space for someting to sit next to it.</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Float right occurs on right, sitting beside the main content.</p>
+    </div>
+
+    <div class="footer">
+      Footer: This stays below both columns and does not slide in between them.
+    </div>
+
+
+    <p class="section-label" id="part4">Part 4: Integrated Layout</p>
+
+    <div class="box">
+      <h2>Box Model</h2>
+      <p>Padding, border, and margin both working together on one box.</p>
+    </div>
+
+    <div class="card">
+      <span class="badge">Featured</span>
+      <p>Position is relative and absolute on the badge. Since, the badge stays exactly on the required position.</p>
+    </div>
+
+    <div class="main-content">
+      <h3>Main Column</h3>
+      <p>Float left, covering a wider side.</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>Side Column</h3>
+      <p>Float right, just sits beside the main column.</p>
+    </div>
+
+    <div class="footer">
+      Footer occurs below everything.
+    </div>
+
+  </div>
+
+</body>
+
+</html>
