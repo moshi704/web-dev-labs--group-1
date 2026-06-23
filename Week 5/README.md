@@ -38,6 +38,7 @@ Maintaining a clean and responsive user interface.
 The application enables lecturers and students to calculate and view grades instantly, improving efficiency and user experience
 
 ## Participants
+
 Charles, James Andrea 34852/T.2024
 Lukindo, Elias Paschal 32705/T.2024
 Moshi, Erick Abely 33805/T.2024
